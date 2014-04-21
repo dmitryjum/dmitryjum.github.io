@@ -3,18 +3,17 @@ body {
 }
 
 header {
-  height: 800px;
-  background: url(../img/meGAportrait.jpg);
-  background-size: cover;
+  height: 200px;
   z-index: 2;
+  border-bottom: 1px inset black;
 }
 
 .columns {
-  border-bottom: 1px inset black ;
+  border-bottom: 1px inset black;
 }
 
 .three {
-  border-bottom: 3px inset ;
+  border-bottom: 1px inset;
 }
 
 .about {
