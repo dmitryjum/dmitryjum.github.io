@@ -1,0 +1,36 @@
+body {
+  background: url(../img/skulls.png);
+}
+
+header {
+  height: 800px;
+  background: url(../img/meGAportrait.jpg);
+  background-size: cover;
+  z-index: 2;
+}
+
+.columns {
+  border-bottom: 1px inset black ;
+}
+
+.three {
+  border-bottom: 3px inset ;
+}
+
+.about {
+  height: 600px;
+  width: auto;
+  /*background-color: green;*/
+}
+
+.technical-skills {
+  height: 600px;
+  width: auto;
+  /*background-color: red;*/
+}
+
+.projects {
+  height: 600px;
+  width: auto;
+  /*background-color: blue;*/
+}
