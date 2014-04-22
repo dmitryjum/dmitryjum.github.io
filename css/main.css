@@ -1,10 +1,19 @@
 body {
-  background: url(../img/skulls.png);
+  background: url(../img/sandpaper.png);
 }
 
 header {
   height: 200px;
   border-bottom: 1px inset black;
+}
+
+#main-heading {
+  position: relative;
+  font-family: 'Gloria Hallelujah', 'cursive';
+  text-align: center;
+  vertical-align: middle;
+  margin: 2em;
+  /*line-height: 90px;*/
 }
 
 .columns {
