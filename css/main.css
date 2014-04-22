@@ -1,5 +1,6 @@
 body {
   background: url(../img/sandpaper.png);
+  margin: 0 auto;
 }
 
 header {
@@ -13,37 +14,40 @@ header {
   text-align: center;
   vertical-align: middle;
   margin: 2em;
-  /*line-height: 90px;*/
 }
 
-.columns {
-  height: 600px;
-  border-bottom: 1px inset black;
+#portrait {
+  border: 4px solid rgb(210, 208, 203);
 }
 
-.small-4 {
-  border-right: 1px inset black;
-}
-
+/*210 208 203*/
 
 .three {
   border-bottom: 1px inset;
 }
 
-.about {
-  height: 600px;
+.about-wrapper {
+  padding-top: 60px;
+  height: 400px;
+  vertical-align: middle;
   width: auto;
-  border: 1px inset black;
+  border-bottom: 1px inset black;
+  display: inline;
 }
 
 .technical-skills {
   height: 600px;
   width: auto;
+  border-bottom: 1px inset black;
+  margin: 2em;
+
 }
 
 .projects {
   height: 600px;
   width: auto;
+  /*border-bottom: 1px inset black;*/
+
 }
 
 footer {
