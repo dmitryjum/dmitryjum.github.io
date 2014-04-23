@@ -5,7 +5,7 @@ body {
 
 header {
   height: 200px;
-  border-bottom: 1px inset black;
+  border-bottom: 1px inset white;
 }
 
 #main-heading {
@@ -21,7 +21,6 @@ header {
   border-radius: 25px;
 }
 
-/*210 208 203*/
 
 .three {
   border-bottom: 1px inset;
@@ -32,14 +31,14 @@ header {
   height: 500px;
   vertical-align: middle;
   width: auto;
-  border-bottom: 1px inset black;
+  border-bottom: 1px inset white;
   display: inline;
 }
 
 .technical-skills {
   height: 600px;
   width: auto;
-  border-bottom: 1px inset black;
+  border-bottom: 1px inset white;
   margin: 2em;
 
 }
