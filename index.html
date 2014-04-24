@@ -10,17 +10,27 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <header>
+    <header id="about-me">
       <div class="fixed">
         <nav class="top-bar" data-topbar>
-          <ul class="title-area">
+          <!-- <ul class="title-area">
             <li class="name">
               <h1><a href="#">My Site</a></h1>
             </li>
-          </ul>
+          </ul> -->
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li><a href="#about-me">About me</a></li>
+              <li><a href="#techskills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#">My resume</a></li>
+            </ul>
+          </section>
         </nav>
       </div>
-      <h1 id="main-heading">Welcome to my wonderful page</h1>
+      <h1 id="main-heading">Dmitry Jum. Full Stack Web Developer.</h1>
     </header>
     <section class="row">
       <div class="small-12 columns about-wrapper">
@@ -41,7 +51,7 @@ I have taken 12 week web development immersive course with General Assembly. I h
       </div>
     </section>
 
-    <section class="row">
+    <section class="row" id="techskills">
       <div class="small-12 columns two">
         <div class="technical-skills">
           <h3>My technical skills</h3>
@@ -88,7 +98,7 @@ I have taken 12 week web development immersive course with General Assembly. I h
       </div>
     </section>
 
-    <section class="row">
+    <section class="row" id="projects">
       <div class="small-12 columns three">
         <div class="projects">
           <h3>My development Projects</h3>
@@ -128,7 +138,7 @@ I have taken 12 week web development immersive course with General Assembly. I h
       </div>
     </section>
 
-    <footer class="row">
+    <footer class="row" id="contact">
         <div class="small-12 columns">
           <div class="contact">
             <h4>Contact info</h4>
