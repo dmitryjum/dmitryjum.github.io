@@ -8,6 +8,7 @@ header {
   border-bottom: 1px inset white;
 }
 
+
 #main-heading {
   position: relative;
   font-family: 'Gloria Hallelujah', 'cursive';
@@ -40,15 +41,22 @@ header {
   width: auto;
   border-bottom: 1px inset white;
   margin: 2em;
-
 }
 
 .projects {
-  height: 600px;
+  height: 1000px;
   width: auto;
 }
 
 footer {
-  height: 100px;
-  border-top: 1px inset black;
+  height: 400px;
+}
+
+.contact {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact li {
+  display: inline;
 }
