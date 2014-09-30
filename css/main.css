@@ -55,8 +55,29 @@ header {
   border-bottom: 1px solid white;
 }
 
+#invibox-text {
+  margin-bottom: 5em;
+}
+
+.job {
+  /*margin-bottom: 3em;*/
+  padding-left: 1em;
+}
+
 #xpress-logo {
   margin-top: 1em;
+}
+
+#invibox-logo {
+  margin-top: 1em;
+}
+
+#invibox-logo a {
+  width: 250px;
+}
+
+#invibox-logo img {
+  width: 250px;
 }
 
 .contact {
