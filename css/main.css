@@ -60,23 +60,14 @@ header {
 }
 
 .job {
-  /*margin-bottom: 3em;*/
   padding-left: 1em;
 }
 
-#xpress-logo {
+.logo-margin-top {
   margin-top: 1em;
 }
 
-#invibox-logo {
-  margin-top: 1em;
-}
-
-#invibox-logo a {
-  width: 250px;
-}
-
-#invibox-logo img {
+#invibox-logo a, #invibox-logo img {
   width: 250px;
 }
 
