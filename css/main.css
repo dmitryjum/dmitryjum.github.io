@@ -1469,6 +1469,7 @@
 	}
 
 		#main article {
+			scrollbar-width: none;
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
 			-ms-transform: translateY(0.25rem);
@@ -1486,6 +1487,10 @@
 			opacity: 0;
 			max-height: 640px;
 			overflow: auto;
+		}
+
+		#main article::-webkit-scrollbar {
+			display: none;
 		}
 
 			#main article.active {
@@ -1536,9 +1541,9 @@
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
-				article .article-wrapper {
+				/* article .article-wrapper {
 					overflow-y: scroll;
-				}
+				} */
 
 		@media screen and (max-width: 736px) {
 
